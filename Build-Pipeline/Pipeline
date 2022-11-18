@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Pull Artifacts') {
+            steps {
+                echo 'Build..'
+            }
+        }
+        stage('Certify the Artifact') {
+            steps {
+                echo 'Build..'
+            }
+        }
+        stage('Upload Artifacts') {
+            steps {
+                echo 'Build....'
+            }
+        }
+		stage('Create and Promote Release') {
+            steps {
+                echo 'Build....'
+            }
+        }
+		stage('Build Containers') {
+            steps {
+                echo 'Build....'
+            }
+        }
+		stage('Regression Testing') {
+            steps {
+                echo 'Build....'
+            }
+        }
+		stage('Application Acceptance') {
+            steps {
+                echo 'Build....'
+            }
+        }
+    }
+}
